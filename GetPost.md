@@ -3,7 +3,8 @@
 **GET OU POST ?**
 
 **GET**
-Get est utilisé pour intérroger le serveur, la méthode consiste a demander des informations aux serveurs
+Get est utilisé pour intérroger le serveur, la méthode consiste a demander des informations aux serveurs,j'ai effectué un test
+en effectuant une recherche sur internet, donc en théorie j'interroge le serveur : ![Image](/bloc1/GETexemple.jpg)
 \
 \
 **POST**

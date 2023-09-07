@@ -4,7 +4,7 @@
 
 **GET**
 Get est utilisé pour intérroger le serveur, la méthode consiste a demander des informations aux serveurs,j'ai effectué un test
-en effectuant une recherche sur internet, donc en théorie j'interroge le serveur : ![Image](C:\Users\divay\OneDrive\Documents\bloc1\GETexemple.png)
+en effectuant une recherche sur internet, donc en théorie j'interroge le serveur : ![Image](\..\GETexemple.png)
 \
 \
 **POST**

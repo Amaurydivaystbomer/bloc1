@@ -11,4 +11,5 @@ en effectuant une recherche sur internet, donc en théorie j'interroge le serveu
 A contrario la méthode POST est utilisé pour envoyé des informations sur le serveurs, comme par exemple envoie d'un formulaire.
 j'ai remplie un formulaire de connexion sur un site internet au moment d'appuyer sur envoyer on peut voir une requete POST 
 qui envoie les informations sur le serveur :
+
 ![Image](POSTexemple.png)

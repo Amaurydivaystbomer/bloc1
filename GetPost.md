@@ -13,3 +13,8 @@ j'ai remplie un formulaire de connexion sur un site internet au moment d'appuyer
 peut voir une requete POST 
 qui envoie les informations sur le serveur :
 ![Image](POSTexemple.png)
+\
+\
+|                    | POST                                     | GET                                       |
+|--------------------|------------------------------------------|-------------------------------------------|
+| Fonctionnement     | Envoyer informations au serveur          | Recevoir informations depuis le serveur   |

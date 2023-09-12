@@ -39,3 +39,5 @@ Le fait que le protocole http soit qualifié de protocole sans état veut dire q
 **Décomposer une URL en ces différentes parties**
 
 ![Image](exempleURL.png)
+
+https = protocole, www = sous domaine, lycee-sainte-ursule = domaine, .fr = top level domain

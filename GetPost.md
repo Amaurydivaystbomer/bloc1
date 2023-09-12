@@ -42,7 +42,7 @@ Le fait que le protocole http soit qualifié de protocole sans état veut dire q
 
 https = protocole/ cette partie correspond aux normes techniques qui sont communément utilisées pour concevoir des adresses de sites internet.
 
-www = sous domaine/, 
+www = sous domaine/ ""
 
 lycee-sainte-ursule = domaine/ nom du lycée mais peut etre aussi organisation, entrprise, etc..
 

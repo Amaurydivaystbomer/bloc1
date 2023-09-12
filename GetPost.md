@@ -37,4 +37,5 @@ Le fait que le protocole http soit qualifié de protocole sans état veut dire q
 3. Or pour garder la connexion les sites web utilisent les cookies.
 
 **Décomposer une URL en ces différentes parties**
-![Image]()
+
+![Image](exempleURL.png)

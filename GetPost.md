@@ -40,4 +40,7 @@ Le fait que le protocole http soit qualifié de protocole sans état veut dire q
 
 ![Image](exempleURL.png)
 
-https = protocole, www = sous domaine, lycee-sainte-ursule = domaine, .fr = top level domain
+https = protocole/ cette partie correspond aux normes techniques qui sont communément utilisées pour concevoir des adresses de sites internet.
+www = sous domaine/, 
+lycee-sainte-ursule = domaine/ nom du lycée mais peut etre aussi organisation, entrprise, etc..
+.fr = top level domain/ lors de la requete le .fr sert a choisir le bon serveur dns parmis les 13 serveurs racines.

@@ -47,3 +47,11 @@ www = sous domaine/ ""
 lycee-sainte-ursule = domaine/ nom du lycée mais peut etre aussi organisation, entrprise, etc..
 
 .fr = top level domain/ lors de la requete le .fr sert a choisir le bon serveur dns parmis les 13 serveurs racines.
+
+**Lister les familles de code status de la réponse http**
+
+1. Informational responses (100 – 199)
+2. Successful responses (200 – 299)
+3. Redirection messages (300 – 399)
+4. Client error responses (400 – 499)
+5. Server error responses (500 – 599)

@@ -51,7 +51,11 @@ lycee-sainte-ursule = domaine/ nom du lycée mais peut etre aussi organisation, 
 **Lister les familles de code status de la réponse http**
 
 1. Informational responses (100 – 199)
+
 2. Successful responses (200 – 299)
+
 3. Redirection messages (300 – 399)
+
 4. Client error responses (400 – 499)
+
 5. Server error responses (500 – 599)

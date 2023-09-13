@@ -64,8 +64,11 @@ lycee-sainte-ursule = domaine/ nom du lycée mais peut etre aussi organisation, 
 
 **4. Client error responses (400 – 499)**
 
-
+(code 401) ce code indique que l'utilisateur n'est pas autorisé a entrer sur le site et doit se connecter.
 
 **5. Server error responses (500 – 599)**
+
+(code 505) ce code indique la version de http n'est pas supporté par le serveur.
+
 
 

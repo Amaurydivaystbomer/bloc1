@@ -50,22 +50,22 @@ lycee-sainte-ursule = domaine/ nom du lycée mais peut etre aussi organisation, 
 
 **Lister les familles de code status de la réponse http**
 
-1. Informational responses (100 – 199)
+**1. Informational responses (100 – 199)**
 
 (code 102) Ce code indique que le serveur a reçu et traite la demande, mais qu'aucune réponse n'est encore disponible.
 
-2. Successful responses (200 – 299)
+**2. Successful responses (200 – 299)**
 
 (code 200) ce code indique que la requete a bien été transmise comme par exemple on retrouve ce code avec la méthode GET qui veut dire avec la methode get la ressource a été récupérée et transmise.
 
-3. Redirection messages (300 – 399)
+**3. Redirection messages (300 – 399)**
 
 (code 302) co code indique 'found' , il signifie que quand l'utilisateur met un url un message s'affiche comme quoi l'url a ete temporairement changé et que l'utilisateur doit suivre le nouvel url.
 
-4. Client error responses (400 – 499)
+**4. Client error responses (400 – 499)**
 
 
 
-5. Server error responses (500 – 599)
+**5. Server error responses (500 – 599)**
 
 

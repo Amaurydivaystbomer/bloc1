@@ -72,3 +72,13 @@ lycee-sainte-ursule = domaine/ nom du lycée mais peut etre aussi organisation, 
 
 
 
+**Négociation de contenu**
+
+La négociation de contenu en http est très utile pour le client car la négociation permet d'avoir la meilleure version d'une ressource en fonction des préférences du client, les 2 négocations de contenus les plus connus sont :
+
+1. la négociation basée sur les en-têtes
+
+
+
+2. la négociation basée sur les url
+

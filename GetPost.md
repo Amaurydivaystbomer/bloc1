@@ -52,6 +52,8 @@ lycee-sainte-ursule = domaine/ nom du lycée mais peut etre aussi organisation, 
 
 1. Informational responses (100 – 199)
 
+Ce code indique que le serveur a reçu et traite la demande, mais qu'aucune réponse n'est encore disponible.
+
 2. Successful responses (200 – 299)
 
 3. Redirection messages (300 – 399)
@@ -59,3 +61,5 @@ lycee-sainte-ursule = domaine/ nom du lycée mais peut etre aussi organisation, 
 4. Client error responses (400 – 499)
 
 5. Server error responses (500 – 599)
+
+

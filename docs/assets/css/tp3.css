@@ -3,4 +3,5 @@ body{
     background-image: url(./../images/df-min.jpg);
     width: 100%;
     height: auto; 
+    max-width: 100%;
 }

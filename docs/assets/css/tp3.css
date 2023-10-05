@@ -3,3 +3,12 @@ body{
     background-image: url(./../images/df-min.jpg);
     background-size: cover;
 }
+.orange-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    opacity: 0.5; /* Ajustez l'opacité selon vos préférences */
+}

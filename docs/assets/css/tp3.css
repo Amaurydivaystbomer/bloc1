@@ -1,4 +1,6 @@
 body{
     background-color: grey;
     background-image: url(./../images/df-min.jpg);
+    width: 100%;
+    height: auto; 
 }

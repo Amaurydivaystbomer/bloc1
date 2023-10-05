@@ -3,3 +3,15 @@ body{
     background-image: url(./../images/df-min.jpg);
     background-size: cover;
 }
+.orange-block {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-block p {
+    color: white; /* Changez la couleur du texte en blanc pour une meilleure visibilité */
+}

@@ -2,4 +2,5 @@ body{
     background-color: grey;
     background-image: url(./../images/df-min.jpg);
     background-size: cover;
+    height: 10px;
 }

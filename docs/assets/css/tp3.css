@@ -11,6 +11,11 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Utilisez vh pour s'assurer que le corps prend toute la hauteur de la fenêtre de visualisation */
+    margin: 0;
 }
 
 .orange-block p {

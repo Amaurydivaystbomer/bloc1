@@ -4,18 +4,14 @@ body{
     background-size: cover;
 }
 .orange-block {
-    background-color: orange;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    background-color: red;
+    border: 5px solid red;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 15px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Utilisez vh pour s'assurer que le corps prend toute la hauteur de la fenêtre de visualisation */
-    margin: 0;
+    border-radius: 15px;
 }
 
 .orange-block p {

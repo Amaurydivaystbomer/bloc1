@@ -1,0 +1,21 @@
+h2{
+    color: green;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#premier{
+    color: black;
+    text-decoration: none;
+}
+#deux{
+    color: black;
+    text-decoration: none;
+}
+#trois{
+    color: black;
+    text-decoration: none;
+}

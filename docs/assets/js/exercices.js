@@ -50,20 +50,37 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const imageSelector = document.getElementById("image-selector");
-  const displayedImage = document.getElementById("displayed-image");
+    const imageSelector = document.getElementById("image-selector");
+    const displayedImage = document.getElementById("displayed-image");
 
-  imageSelector.addEventListener("change", function () {
-      const selectedImage = imageSelector.value;
-
-      if (selectedImage === "image1") {
-          displayedImage.src = "../../assets/1.jpg";
-      } else if (selectedImage === "image2") {
-          displayedImage.src = "image2.jpg";
-      } else if (selectedImage === "image3") {
-          displayedImage.src = "image3.jpg";
-      }
-  });
+    imageSelector.addEventListener("change", function () {
+        const selectedImage = imageSelector.value;
+        displayedImage.src = selectedImage;
+    });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const elementASurvoler = document.getElementById("element-a-survoler"); // on recupere l'id dans le html
+
+    elementASurvoler.addEventListener("mouseover", function () { // on utilise mouseover
+        alert("Votre pc explose dans 3.....2.....1 BOOOOOM"); // et on affiche l'alerte que l'on veut
+    });
+});
+
+
+function updateDigitalClock() {
+    const digitalClock = document.getElementById("HorlogeNum");
+    const currentTime = new Date();
+    const heures = currentTime.getHours().toString().padStart(2, '0');
+    const minutes = currentTime.getMinutes().toString().padStart(2, '0');
+    const secondes = currentTime.getSeconds().toString().padStart(2, '0');
+
+    digitalClock.textContent = `${heures}:${minutes}:${secondes}`;
+}
+
+// Mettre à jour l'horloge toutes les secondes
+setInterval(updateDigitalClock, 1000);
+
+// Appeler la fonction une fois au chargement de la page pour afficher l'heure actuelle
+updateDigitalClock();
 

@@ -84,3 +84,30 @@ setInterval(updateDigitalClock, 1000);
 // Appeler la fonction une fois au chargement de la page pour afficher l'heure actuelle
 updateDigitalClock();
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    const boutonSupp = document.getElementById("boutonsupp");
+    const texteAsupp = document.getElementById("texteasupp");
+
+    boutonSupp.addEventListener("click", function () {
+        const confirmation = prompt("Voulez-vous vraiment supprimer cet élément ? Répondez par 'oui' ou 'non'.");
+
+        if (confirmation === "oui") {
+            texteAsupp.remove();
+        }
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const showHideCheckbox = document.getElementById("show-hide-checkbox");
+    const elementToShowHide = document.getElementById("element-to-show-hide");
+
+    showHideCheckbox.addEventListener("change", function () {
+        if (showHideCheckbox.checked) {
+            elementToShowHide.style.display = "block"; // Afficher l'élément
+        } else {
+            elementToShowHide.style.display = "none"; // Cacher l'élément
+        }
+    });
+});

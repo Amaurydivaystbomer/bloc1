@@ -115,7 +115,26 @@ function toggleElement() {
     console.log("Nom : " + name);
     console.log("Adresse e-mail : " + email);
     console.log("Message : " + message);
-    
+
     // Réinitialiser le formulaire
     document.getElementById("contactForm").reset();
   });
+
+
+  function applyStyles() {
+    var fontSize = document.getElementById("fontSize").value + "px";
+    var fontColor = document.getElementById("fontColor").value;
+    var fontFamily = document.getElementById("fontFamily").value;
+    var fontWeight = document.getElementById("fontWeight").checked ? "bold" : "normal";
+    var fontStyle = document.getElementById("fontStyle").checked ? "italic" : "normal";
+    var textDecoration = document.getElementById("textDecoration").checked ? "underline" : "none";
+  
+    var previewText = document.getElementById("previewText");
+  
+    previewText.style.fontSize = fontSize;
+    previewText.style.color = fontColor;
+    previewText.style.fontFamily = fontFamily;
+    previewText.style.fontWeight = fontWeight;
+    previewText.style.fontStyle = fontStyle;
+    previewText.style.textDecoration = textDecoration;
+  }

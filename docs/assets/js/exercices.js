@@ -138,3 +138,28 @@ function toggleElement() {
     previewText.style.fontStyle = fontStyle;
     previewText.style.textDecoration = textDecoration;
   }
+
+  // Fonction pour ajouter un chiffre ou un opérateur à l'écran
+function appendNumber(number) {
+    document.getElementById("result").value += number;
+  }
+  
+  function appendOperator(operator) {
+    document.getElementById("result").value += operator;
+  }
+  
+  // Fonction pour effectuer le calcul
+  function calculate() {
+    try {
+      const result = eval(document.getElementById("result").value);
+      document.getElementById("result").value = result;
+    } catch (error) {
+      document.getElementById("result").value = "Erreur";
+    }
+  }
+  
+  // Effacer l'écran
+  function clearScreen() {
+    document.getElementById("result").value = "";
+  }
+  

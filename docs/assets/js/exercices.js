@@ -85,29 +85,37 @@ setInterval(updateDigitalClock, 1000);
 updateDigitalClock();
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const boutonSupp = document.getElementById("boutonsupp");
-    const texteAsupp = document.getElementById("texteasupp");
+function confirmerSuppression() {
+    var confirmation = confirm("Êtes-vous sûr de vouloir supprimer cet élément ?");
+    if (confirmation) {
+        // Effectuer la suppression de l'élément ici en utilisant l'ID spécifique
+        var elementASupprimer = document.getElementById("id_de_l_element");
+        elementASupprimer.remove();
+    }
+}
 
-    boutonSupp.addEventListener("click", function () {
-        const confirmation = prompt("Voulez-vous vraiment supprimer cet élément ? Répondez par 'oui' ou 'non'.");
+function toggleElement() {
+    var checkbox = document.getElementById("checkbox");
+    var element = document.getElementById("elementToToggle");
+ 
+    if (checkbox.checked) {
+       element.style.display = "block"; // Afficher l'élément
+    } else {
+       element.style.display = "none"; // Cacher l'élément
+    }
+ }
 
-        if (confirmation === "oui") {
-            texteAsupp.remove();
-        }
-    });
-});
-
-
-document.addEventListener("DOMContentLoaded", function () {
-    const showHideCheckbox = document.getElementById("show-hide-checkbox");
-    const elementToShowHide = document.getElementById("element-to-show-hide");
-
-    showHideCheckbox.addEventListener("change", function () {
-        if (showHideCheckbox.checked) {
-            elementToShowHide.style.display = "block"; // Afficher l'élément
-        } else {
-            elementToShowHide.style.display = "none"; // Cacher l'élément
-        }
-    });
-});
+ document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Empêche le rechargement de la page
+  
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+  
+    console.log("Nom : " + name);
+    console.log("Adresse e-mail : " + email);
+    console.log("Message : " + message);
+    
+    // Réinitialiser le formulaire
+    document.getElementById("contactForm").reset();
+  });
